@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_agenda" type="id" />
+    <item name="nav_misgrupos" type="id" />
+    <item name="nav_puntualidad" type="id" />
+    <item name="nav_notas" type="id" />
+    <item name="nav_seguimientoescolar" type="id" />
+    <item name="text_noticias" type="id" />
+    <item name="text_agenda" type="id" />
+</resources>

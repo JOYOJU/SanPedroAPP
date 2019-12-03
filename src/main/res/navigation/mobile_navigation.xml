@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_agenda">
+
+    <fragment
+        android:id="@+id/nav_agenda"
+        android:name="claverianapps.net.ui.agenda.AgendaFragment"
+        android:label="@string/menu_agenda"
+        tools:layout="@layout/fragment_agenda" />
+
+    <fragment
+        android:id="@+id/nav_misgrupos"
+        android:name="claverianapps.net.ui.misgrupos.MisGruposFragment"
+        android:label="@string/menu_misgrupos"
+        tools:layout="@layout/fragment_misgrupos" />
+
+    <fragment
+    android:id="@+id/nav_puntualidad"
+    android:name="claverianapps.net.ui.puntualidad.PuntualidadFragment"
+    android:label="@string/menu_puntualidad"
+    tools:layout="@layout/fragment_puntualidad" />
+
+    <fragment
+        android:id="@+id/nav_notas"
+        android:name="claverianapps.net.ui.notas.NotasFragment"
+        android:label="@string/menu_notas"
+        tools:layout="@layout/fragment_notas" />
+
+    <fragment
+        android:id="@+id/nav_noticias"
+        android:name="claverianapps.net.ui.noticias.NoticiasFragment"
+        android:label="@string/menu_noticias"
+        tools:layout="@layout/fragment_noticias" />
+
+    <fragment
+        android:id="@+id/nav_seguimientoescolar"
+        android:name="claverianapps.net.ui.seguimientoescolar.se.SeguimientoEscolarFragment"
+        android:label="@string/menu_seguimientoescolar"
+        tools:layout="@layout/fragment_seguimientoescolar" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="claverianapps.net.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_configuraciones"
+        android:name="claverianapps.net.ui.configuraciones.ConfiguracionesFragment"
+        android:label="@string/menu_configuraciones"
+        tools:layout="@layout/fragment_configuraciones" />
+</navigation>
